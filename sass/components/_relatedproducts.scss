@@ -1,0 +1,90 @@
+#products{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    h1{
+        @include fonts('Inter',35px,700,$scolor);
+        padding-bottom: 50px;
+    }
+    .cat-fruit{
+        margin-bottom: 25px;
+        .fruit-image{
+            position: relative;
+            overflow: hidden;
+            
+            .overlay{
+                width: 0%;
+                height: 100%;
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                z-index: 11;
+                
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+                opacity: 0;
+                transition: all linear .4s;
+
+                a{
+                width: 50px;
+                height: 50px;
+                background: #FFF;
+                border-radius: 50%;
+                -webkit-border-radius: 50;
+                -moz-border-radius: 50;
+                -ms-border-radius: 50;
+                -o-border-radius: 50;
+                text-align: center;
+                opacity: 0;
+                transition: all linear .6s;
+                    i{
+                        font-size: 23px;
+                        color: $paracolor;
+                        margin-top: 15px;
+                        
+                    }
+                    
+                }
+                
+                
+            }
+            &:hover{
+                .overlay{
+                    width: 100%;
+                    
+                    opacity: 1;
+                }
+                
+            }
+            &:hover{
+                a{
+                    opacity: 1;
+                    
+                }
+            }
+        }
+        .rating{
+                margin-top: 20px;
+                text-align: center;
+            a{
+                color: $textorang;
+            }
+        }
+        .fruit-text{
+            text-align: center;
+            h5{
+                @include fonts('Inter',20px,600,$scolor);
+                padding-top: 15px;
+            }
+            p{
+                @include fonts('Inter',20px,600,$cat-p);
+                padding: 10px 0;
+            }
+            h2{
+                @include fonts('Inter',20px,600,$scolor);
+            }
+        }
+    }
+}

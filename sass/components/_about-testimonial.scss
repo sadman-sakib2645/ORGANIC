@@ -1,0 +1,38 @@
+#abt-testimonial{
+    margin-bottom: 100px;
+    .big-test{
+        padding: 70px 25px;
+        border: 1px solid #6767674f;
+        border-radius: 10px;
+        p{
+            @include fonts('inter',16px,400,$paracolor); 
+            line-height: 28px;
+            padding-top: 30px;
+            padding-bottom: 22px;
+        }
+        h4{
+            @include fonts('inter',20px,600,$scolor); 
+        }
+        h5{
+            @include fonts('inter',16px,400,$scolor); 
+        }
+    }
+    .small-test{
+        .part1{
+            padding: 20px 20px;
+            border: 1px solid #6767674f;
+            border-radius: 10px;
+            h6{
+                @include fonts('inter',16px,400,$paracolor); 
+                line-height: 28px;
+                padding-top: 5px;
+            }
+            h4{
+                @include fonts('inter',20px,600,$scolor); 
+            }
+            h5{
+                @include fonts('inter',16px,400,$scolor); 
+            }
+        }
+    }
+}

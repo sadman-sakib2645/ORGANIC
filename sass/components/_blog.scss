@@ -1,0 +1,40 @@
+#blog{
+    margin-bottom: 130px;
+    .blog-item{
+        
+        .blog-text{
+            margin-top: 20px;
+            .number{
+                width: 70px;
+                height: 70px;
+                padding: 4px 20px;
+                border-radius: 10px;
+                border: 1px solid #C9C9C9;
+                h6{
+                    @include fonts('Inter',25px,600,$scolor);
+                    span{
+                        display: block;
+                    }
+                }
+            }
+            .text{
+                padding-left: 33px;
+                h3{
+                    @include fonts('Inter',20px,600,$scolor);
+                }
+                p{
+                    @include fonts('Inter',15px,400,$blog);
+                    line-height: 28px;
+                    padding-top: 10px;
+                }
+                h5{
+                    padding-top: 5px;
+                    @include fonts('Inter',15px,600,$textorang);
+                    span{
+                        padding-left: 7px;
+                    }
+                }
+            }
+        }
+    }
+}

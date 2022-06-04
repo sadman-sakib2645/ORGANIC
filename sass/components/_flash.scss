@@ -1,0 +1,145 @@
+#flash{
+    background: url(../images/flash.png) no-repeat center/cover;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-bottom: 130px;
+    margin-top: 130px;
+    .flash-text{
+        h4{
+            @include fonts('Inter',45px,700,$scolor);
+        }
+        h6{
+            @include fonts('Inter',30px,600,$scolor);
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        p{
+            @include fonts('Inter',16px,400,$paracolor);
+            line-height: 28px;
+            padding-right: 150px;
+            padding-bottom: 25px;
+        }
+        .flash-btn{
+            margin-bottom: 35px;
+            @include fonts('Inter',20px,600,$pcolor);
+            padding: 14px 50px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            background: $btnbg;
+            overflow: hidden;
+            transition:all linear .4s ;
+            -webkit-transition:all linear .4s ;
+            -moz-transition:all linear .4s ;
+            -ms-transition:all linear .4s ;
+            -o-transition:all linear .4s ;
+            position: relative;
+            z-index: 1;
+            &::after{
+                content: "";
+                width: 10%;
+                height: 10%;
+                background: rgb(226, 106, 26);
+                
+                z-index:-1;
+                position: absolute;
+                top: 50%;
+                left:-20px;
+                border-radius: 50%;
+                //border-top-left-radius: 10px;
+                //border-bottom-left-radius: 10px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                transition: all linear .4s;
+                -webkit-transition: all linear .4s;
+                -moz-transition: all linear .4s;
+                -ms-transition: all linear .4s;
+                -o-transition: all linear .4s;
+            }
+            &:hover{
+                &::after{
+                    left:50%;
+                    top:50%;
+                    transform: translateX(-50%);
+                    width: 20%;
+                    height: 20%;
+                    transform: scale(8);
+                    -webkit-transform: scale(8);
+                    -moz-transform: scale(8);
+                    -ms-transform: scale(8);
+                    -o-transform: scale(8);
+                    
+                }   
+            }
+
+        }
+        
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling */
+
+  
+
+  
+
+  
+ 
+  
+ 
+  
+
+  
+  li {
+    display: inline-block;
+    font-size: 29px;
+    font-weight: 500;
+    list-style-type: none;
+    padding-right: 30px !important;
+    text-transform: uppercase;
+    
+  }
+  
+  li span {
+    display: block;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  
+  
+
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+    
+    
+}

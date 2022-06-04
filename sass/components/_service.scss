@@ -1,0 +1,14 @@
+#service{
+    margin-bottom: 130px;
+    .service-item{
+        text-align: center;
+        h5{
+            @include fonts('Inter',20px,600,$scolor);
+            padding-top: 25px;
+            padding-bottom: 8px;
+        }
+        p{
+            @include fonts('Inter',16px,400,$paracolor);
+        }
+    }
+}

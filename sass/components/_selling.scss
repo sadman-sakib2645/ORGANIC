@@ -1,0 +1,114 @@
+#selling{
+    margin-bottom: 130px;
+    position: relative;
+    .sell-header{
+        ul{
+            li{
+                @include fonts('Inter',25px,700,$scolor);
+                padding-bottom: 15px;
+            }
+        }
+        &::after{
+            content: "";
+            width: 25%;
+            height: 100%;
+            background:url(../images/sell-bg-1.jpg) no-repeat center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+}
+    }
+    .sell-content{
+        margin-top: 50px;
+        .sell-item{
+            padding-bottom: 20px;
+            .sell-image{
+                position: relative;
+                .rating{
+                    position: absolute;
+                    bottom: 15px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    -webkit-transform: translateX(-50%);
+                    -moz-transform: translateX(-50%);
+                    -ms-transform: translateX(-50%);
+                    -o-transform: translateX(-50%);
+                    a{
+                        color: $textorang;
+                    }
+                }
+            }
+            .sell-text{
+                margin-top: 10px;
+                text-align: center;
+                h5{
+                    @include fonts('Inter',20px,600,$scolor);
+                    padding-top: 15px;
+                }
+                p{
+                    @include fonts('Inter',20px,600,$textorang);
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+}
+.selling{
+    margin-bottom: 130px;
+    position: relative;
+    .sell-header{
+        ul{
+            li{
+                @include fonts('Inter',25px,700,$scolor);
+                padding-bottom: 15px;
+            }
+        }
+        &::after{
+            content: "";
+            width: 25%;
+            height: 100%;
+            background:url(../images/sell-bg-2.png) no-repeat center/cover;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+}
+    }
+    .sell-contents{
+        margin-top: 50px;
+        .sell-item{
+            padding-bottom: 20px;
+            .sell-image{
+                position: relative;
+                .rating{
+                    position: absolute;
+                    bottom: 15px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    -webkit-transform: translateX(-50%);
+                    -moz-transform: translateX(-50%);
+                    -ms-transform: translateX(-50%);
+                    -o-transform: translateX(-50%);
+                    a{
+                        color: $textorang;
+                    }
+                }
+            }
+            .sell-text{
+                margin-top: 10px;
+                text-align: center;
+                h5{
+                    @include fonts('Inter',20px,600,$scolor);
+                    padding-top: 15px;
+                }
+                p{
+                    @include fonts('Inter',20px,600,$textorang);
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+}

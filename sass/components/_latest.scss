@@ -1,0 +1,43 @@
+#latest{
+    margin-bottom: 100px;
+    .card{
+        border: none;
+        border-radius: none;
+        .card-body{
+            border: 1px solid #67676723;
+            border-top: none !important;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            
+            .icon{
+                .one{
+                    margin-right: 20px;
+                    h5{
+                        @include fonts('Inter',14px,400,$paracolor);
+                        display: inline-block;
+                    }
+                }
+            }
+            h2{
+                @include fonts('Inter',25px,600,$scolor);
+                padding-top: 5px;
+                margin-bottom: 35px;
+            }
+            .icon2{
+                padding-top: 35px;
+                border-top: 1px solid #67676723;
+                padding-bottom: 10px;
+                .two{
+                    p{
+                        @include fonts('Inter',14px,400,$paracolor);
+                        display: inline-block;
+                    }
+                }
+                h6{
+                    @include fonts('Inter',14px,600,$textorang);
+                    padding-left: 110px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+#abt-banner{
+    margin-top: 100px;
+    margin-bottom: 76px;
+    background: url(../images/aboutus.png) no-repeat center / cover;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    .abt-banner-text{
+        h2{
+            @include fonts('Inter',35px,700,$scolor);
+        }
+        p{
+            @include fonts('Inter',15px,400,$scolor);
+        }
+    }
+}

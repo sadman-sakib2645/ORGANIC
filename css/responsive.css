@@ -1,0 +1,332 @@
+/* extra small starts */
+
+@media (max-width: 575px){
+    /* header starts */
+    #header .header-text h6{
+        text-align: center;
+        
+    }
+    /* header ends */
+
+    /* navbar starts */
+    .navbar-toggler{
+        outline: none !important;
+    }
+    .navbar{
+        background-color: #F47606;
+    }
+    .navbar .navbar-collapse ul li a{
+        color: white;
+        font-size: 20px;
+    }
+    .navbar .cart{
+        text-align: center;
+    }
+    .navbar .navbar-collapse .cart .draft{
+        display: none !important;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    /* navbar ends */
+
+    /* banner starts */
+    #banner .banner-text h1{
+        font-size: 50px;
+    }
+    #banner {
+        
+        padding-top: 140px !important;
+        padding-bottom: 100px !important;
+        margin-bottom: 100px !important;
+    }
+    /* banner ends */
+
+    /* service starts */
+    #service .service-item{
+        margin-bottom: 30px;
+    }
+    /* service ends */
+
+    /* category starts */
+    #category .cat-3{
+        margin-bottom: 25px;
+    }
+    /* category ends */
+
+    /* flash starts */
+    #flash {
+        
+        
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    #flash .flash-text p{
+        padding-right: 50px;
+    }
+    #flash li{
+        padding-right: 14px !important;
+    }
+    /* flash starts */
+
+    /* selling starts */
+    .sell-head{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding: 0 14px ;
+    }
+    #selling .sell-header ul li{
+        font-size: 13px !important;
+    }
+    #selling .sell-content .sell-item .sell-text{
+        text-align: left;
+    }
+    .selling .sell-header ul li{
+        font-size: 11px;
+    }
+    .selling .sell-contents .sell-item .sell-text{
+        text-align: left;
+    }
+    /* selling ends */
+
+    /* testimonial starts */
+    #testimonial .testimonial-text{
+        padding-left: 0 ;
+    }
+    #testimonial .testimonial-text p{
+        padding-right: 0;
+    }
+    #testimonial .testimonial-img{
+        margin-top: 30px;
+    }
+
+    #testimonial .right{
+        top: 58%;
+        left: 12%;
+    }
+    #testimonial .left{
+        top: 58%;
+        
+    }
+
+    /* testimonial ends */
+
+    /* blog starts */
+    #blog{
+        margin-bottom: 0;
+        
+    }
+    #blog .blog-item{
+        margin-bottom: 30px;
+        
+    }
+    /* blog ends */
+}
+
+/* extra small ends */
+
+@media (min-width: 575px) and (max-width : 767px){
+    /* navbar starts */
+    .navbar{
+        background-color: #F47606;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .cart{
+        text-align: center;
+    }
+    /* navbar ends */
+
+    /* service starts */
+    #service .service-item {
+        
+        margin-bottom: 40px;
+    }
+    /* service ends */
+
+    /* category starts */
+    #category .cat-fruit {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    /* category ends */
+
+    /* selling starts */
+    #selling .sell-head {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+    #selling .sell-header ul li {
+        font-size: 20px;
+    }
+    #selling .sell-content .sell-item .sell-image .rating{
+        left: 26%;
+    }
+    #selling .sell-content .sell-item .sell-text{
+        text-align: left;
+    }
+    .selling .sell-head {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+    .selling .sell-header ul li {
+        font-size: 18px;
+    }
+    .selling .sell-contents .sell-item .sell-image .rating{
+        left: 26%;
+    }
+    .selling .sell-contents .sell-item .sell-text{
+        text-align: left;
+    }
+    /* selling ends */
+
+    /* testimonial starts */
+    #testimonial .testimonial-text{
+        padding-left: 0;
+    }
+    #testimonial .left{
+        left: 39%;
+        top: 39%;
+    }
+    #testimonial .right{
+        left: 45%;
+        top: 39%;
+    }
+    /* testimonial ends */
+
+    /* blog */
+    #blog .blog-item{
+        margin-bottom: 30px;
+    }
+    .draft{
+        display: none !important;
+    }
+    /* blog */
+}
+
+/* medium device starts */
+@media (min-width: 768px) and (max-width:991px){
+    /* navbar */
+    .navbar{
+        background: #F47606;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .cart{
+        text-align: center;
+    }
+    .draft{
+        display: none !important;
+    }
+    /* navbar */
+    #service .service-item {
+        
+        margin-bottom: 40px;
+    }
+    /* service ends */
+    /* category starts */
+    #category .cat-fruit {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    /* category ends */
+    /* selling starts */
+    #selling .sell-head {
+        margin-left: 60px !important;
+        margin-right: 60px !important;
+    }
+    #selling .sell-header ul li {
+        font-size: 22px;
+    }
+    #selling .sell-content .sell-item .sell-image .rating{
+        left: 26%;
+    }
+    #selling .sell-content .sell-item .sell-text{
+        text-align: left;
+    }
+    .selling .sell-head {
+        margin-left: 60px !important;
+        margin-right:60px !important;
+    }
+    .selling .sell-header ul li {
+        font-size: 22px;
+    }
+    .selling .sell-contents .sell-item .sell-image .rating{
+        left: 26%;
+    }
+    .selling .sell-contents .sell-item .sell-text{
+        text-align: left;
+    }
+    /* selling ends */
+    /* flash starts */
+    
+    #flash .flash-text p{
+        padding-right: 50px;
+    }
+    #flash li{
+        padding-right: 17px !important;
+        font-size: 20px !important;
+    }
+    #flash li span{
+        font-size: 35px !important;
+    }
+    /* flash starts */
+    /* testimonial starts */
+    #testimonial .testimonial-text{
+        padding-left: 0;
+    }
+    #testimonial .left {
+        left: 36%;
+        top: 90%;
+    }
+    #testimonial .right {
+        left: 40%;
+        top: 90%;
+    }
+    /* testimonial ends */
+    /* blog */
+    #blog .blog-item{
+        margin-bottom: 30px;
+    }
+}
+/* medium device ends */
+
+
+/* large device ends */
+@media(min-width: 992px) and (max-width: 1199px){
+    /* navbar */
+    .navbar .navbar-collapse ul li{
+        margin: 0 22px !important;
+    }
+    /* navbar */
+
+    /* flash starts */
+    
+    #flash .flash-text p{
+        padding-right: 50px;
+    }
+    #flash li{
+        padding-right: 17px !important;
+        font-size: 20px !important;
+    }
+    #flash li span{
+        font-size: 35px !important;
+    }
+    /* flash starts */
+}
+/* large device ends */
+
+
+
+/* about us page */
+#shop .shop-text h2 {
+	
+	font-size: 26px;
+	
+	padding-right:0px
+	
+}
+/* about us page */
+

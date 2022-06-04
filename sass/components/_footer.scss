@@ -1,0 +1,80 @@
+#footer{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background: #F8F8F8;
+    .first-item{
+        img{
+            padding-bottom: 20px;
+        }
+        ul{
+            li{
+                a{
+                    @include fonts('Inter',16px,400,$blog);
+                    padding-bottom: 2px;
+                }
+            }
+        }
+    }
+    .s-item{
+        h3{
+            @include fonts('Inter',20px,600,$scolor);
+        }
+        ul{
+            padding-top: 40px;
+            li{
+                padding-bottom: 10px;
+                a{
+                    @include fonts('Inter',16px,400,$blog);
+                }
+            }
+        }
+    }
+    .last-item{
+        h4{
+            padding-bottom: 40px;
+            @include fonts('Inter',20px,600,$scolor);
+        }
+        p{
+            
+            @include fonts('Inter',16px,400,$blog);
+        }
+        .form{
+            width: 330px;
+            position: relative;
+            form{
+                width: 80%;
+                input{
+                    margin-top: 26px;
+                    padding: 14px 50px 14px 16px;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                    
+                    outline: none;
+                    border: 1px solid $footer;
+                    
+                }
+                ::placeholder{
+                    @include fonts('Inter',16px,400,$paracolor);
+                }
+            }
+            a{
+                @include fonts('Inter',17px,400,$pcolor);
+                padding: 14px 28px;
+                background: $textorang;
+                border-radius:10px ;
+                -webkit-border-radius:10px ;
+                -moz-border-radius:10px ;
+                -ms-border-radius:10px ;
+                -o-border-radius:10px ;
+                display: inline-block;
+                position: absolute;
+                right: 30px;
+                bottom:0;
+            }
+        }
+
+    }
+}

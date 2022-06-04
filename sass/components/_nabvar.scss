@@ -1,0 +1,59 @@
+#header{
+    background: $topbarbg;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .header-text{
+       h6{
+        @include fonts('Inter',16px,400,$pcolor);
+
+       }
+    }
+}
+
+.navbar{
+    .navbar-collapse{
+        ul{
+            li{
+                margin: 0px 30px;
+                a{
+                    @include fonts('Inter',16px,400,$scolor);
+                    transition: all linear 0.4s;
+                }
+                &:hover{
+                    a{  
+                        color: $hovercolor;
+                    }
+                }
+            }
+        }
+        .cart{
+            i{
+                padding-left: 10px;
+                color: $scolor;
+                font-size: 25px;
+            }
+            &:hover{
+                a{
+                    i{
+                        opacity: .8;
+                    }
+                }
+            }
+            .draft{
+                width: 10px;
+                height: 10px;
+                background-color: $btnbg;
+                position: absolute;
+                top: 3px;
+                right: 36px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                font-size: 10px;
+                color: $pcolor;
+}
+        }
+    }
+}

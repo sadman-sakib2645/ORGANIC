@@ -1,0 +1,30 @@
+#nutural{
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 11;
+    .nutural-content{
+        text-align: center;
+        .nutural-text{
+            h2{
+                @include fonts('Inter',20px,600,$scolor);
+                padding-top: 50px;
+                padding-bottom: 10px;
+
+            }
+            p{
+                @include fonts('Inter',16px,400,$scolor);
+                line-height: 28px;
+            }
+        }
+    }
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: url(../images/design.png) no-repeat ;
+        position: absolute;
+        top: 0;
+        left:0;
+        z-index: -11;
+    }
+}

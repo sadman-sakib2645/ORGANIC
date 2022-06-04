@@ -1,0 +1,52 @@
+#different{
+    margin: 100px 0;
+    .different-item{
+        text-align: center;
+        .button{
+            margin-bottom: 35px;
+            h6{
+                @include fonts('inter',20px,500,$pcolor);
+                background-color: $btnbg;
+                text-align: center;
+                border-radius:15px ;
+                -webkit-border-radius:15px ;
+                -moz-border-radius:15px ;
+                -ms-border-radius:15px ;
+                -o-border-radius:15px ;
+                padding: 20px 0;
+            }
+        }
+        p{
+            @include fonts('inter',20px,500,$paracolor);
+            margin-bottom: 35px;
+        }
+    }
+    .different-text{
+        h5{
+            @include fonts('inter',20px,500,$paracolor);
+        }
+        h2{
+            @include fonts('inter',25px,700,$scolor);
+            padding: 5px 0 10px 0;
+        }
+        p{
+            @include fonts('inter',15px,400,$paracolor);
+            line-height: 30px;
+            padding-bottom: 20px;
+        }
+        .click{
+            margin-bottom: 10px;
+            h3{
+                @include fonts('inter',16px,400,$paracolor);
+                padding-left: 10px;
+                line-height: 30px;
+            }
+            i{
+                font-size: 10px;
+                padding-top: 25px;
+                color: $textorang;
+            }
+            
+        }
+    }
+}
